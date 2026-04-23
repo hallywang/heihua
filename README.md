@@ -195,6 +195,12 @@ PR 自检清单：
 - 没有引入攻击性、歧视性或高风险表达。
 - 如果是新热梗，标注了来源、语境或时效性。
 
+## 引用与致谢
+
+本项目的黑话语料库引用并完整收录了 [justjavac/ali-words](https://github.com/justjavac/ali-words) 在 `f358597dbafae7dbcbaaf3dddb751fc4d34309d8` 版本 README 中列出的词汇。`ali-words` 使用 [Unlicense](https://unlicense.org/) 发布，等同公共领域授权；本项目保留来源、版本和许可证信息，方便后续追溯。
+
+除 `ali-words` 外，初始语料还参考了公开网页和媒体报道，具体来源见 [references/slang-bank.md](references/slang-bank.md) 的“来源说明”。
+
 ## 许可证
 
 MIT License，见 [LICENSE](LICENSE)。
