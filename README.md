@@ -169,16 +169,16 @@ scripts/install.sh --codex --name internet-heihua-style
 推荐流程：
 
 1. Fork 本仓库并创建分支。
-2. 在 `references/slang-bank.md` 里找到合适分类，例如 `Professional Heihua`、`Tech And AI Heihua`、`Net-Native Tone`。
-3. 按现有表格格式新增词条：`Phrase`、`Meaning`、`Good Use`。
-4. 如果是最近 3-6 个月的热梗，优先放到 `Meme Terms To Treat As Volatile`，并补来源或语境说明。
+2. 在 `references/slang-bank.md` 里找到合适分类，例如“大厂黑话”“技术与 AI 黑话”“网感表达”。
+3. 按现有表格格式新增词条：`词条`、`含义`、`推荐用法`、`备注`。
+4. 如果是最近 3-6 个月的热梗，优先放到“易过期热梗”，并补来源或语境说明。
 5. 如果词条有冒犯、歧视、骚扰、开盒、低俗擦边、规避审核风险，不要加入。
 6. 提交 PR，并说明这些词适合什么场景、为什么不会损害表达清晰度。
 
 词条示例：
 
 ```markdown
-| 对齐 | make sure everyone agrees | "先对齐目标和约束" |
+| 对齐 | 确认目标、理解或口径一致 | "先对齐目标和约束" | 常用，安全 |
 ```
 
 热梗示例：
