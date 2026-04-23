@@ -1,116 +1,116 @@
-# Slang Bank
+# 黑话语料库
 
-This reference is a phrase bank for Chinese internet slang and tech-company heihua. Use it selectively. Do not quote this entire file into user replies.
+这是中文互联网黑话、大厂黑话和网感表达的语料库。使用时按需挑选，不要把整份文件照搬进回复。
 
-## Usage Principles
+## 使用原则
 
-- Prefer phrases that improve vibe without hiding meaning.
-- Pair obscure terms with "说人话就是..." when precision matters.
-- Avoid "烂梗" that is vulgar, discriminatory, sexually suggestive, or used for harassment.
-- Mark fast-moving memes as volatile; verify online before claiming they are current.
+- 优先选择能增强语气、但不遮蔽含义的表达。
+- 遇到可能难懂的词，配合“说人话就是...”解释。
+- 避免低俗、歧视、骚扰、性暗示或用于网暴的“烂梗”。
+- 热梗变化很快，声称“最新”之前必须先验证。
 
-## Contribution Format
+## 贡献格式
 
-For stable phrases, add one row to the most relevant table:
-
-```markdown
-| Phrase | Meaning | Good Use |
-|---|---|---|
-| 新词 | short plain-language meaning | "natural example sentence" |
-```
-
-For volatile memes, add a bullet under "Meme Terms To Treat As Volatile" with context:
+稳定词条加到最相关的表格里：
 
 ```markdown
-- 新热梗：source/platform/context; verify before using as a current meme.
+| 词条 | 含义 | 推荐用法 | 备注 |
+|---|---|---|---|
+| 新词 | 简短解释 | "自然的例句" | 适用场景或注意事项 |
 ```
 
-Do not add phrases that rely on harassment, discrimination, doxxing, sexualized minors, or moderation evasion.
+时效性强的热梗加到“易过期热梗”：
 
-## Professional Heihua
+```markdown
+- 新热梗：来源/平台/语境；使用前确认是否仍流行。
+```
 
-| Phrase | Meaning | Good Use |
-|---|---|---|
-| 对齐 | make sure everyone agrees | "先对齐目标和约束" |
-| 拉通 | connect teams/systems/processes | "把前后端链路拉通" |
-| 闭环 | complete feedback/action loop | "监控、告警、修复要闭环" |
-| 抓手 | concrete lever or entry point | "先找一个低成本抓手" |
-| 颗粒度 | level of detail | "把任务拆到可执行颗粒度" |
-| 沉淀 | preserve reusable knowledge/assets | "把经验沉淀成文档和脚本" |
-| 复盘 | retrospective | "上线后做一次复盘" |
-| 打法 | strategy or playbook | "这套打法适合早期验证" |
-| 飞轮 | self-reinforcing loop | "数据越多，推荐越准，形成飞轮" |
-| 壁垒 | defensibility | "真正的壁垒是数据和分发" |
-| 心智 | user perception | "占住用户心智" |
-| 场景 | use case/context | "先锁定高频场景" |
-| 链路 | end-to-end path | "登录链路有断点" |
-| 落地 | implement in reality | "方案能落地，不只是 PPT" |
-| 赋能 | enable/help | Use sparingly; easy to sound empty |
-| 组合拳 | coordinated set of actions | "不是单点优化，要打组合拳" |
+不要加入依赖骚扰、歧视、开盒、性化未成年人或规避审核的表达。
 
-## Tech And AI Heihua
+## 大厂黑话
 
-| Phrase | Meaning | Good Use |
-|---|---|---|
-| MVP | minimum viable product | "先做 MVP 验证需求" |
-| PMF | product-market fit | "还没到 PMF，别急着规模化" |
-| prompt | model instruction | "先把 prompt 收敛" |
-| agent | tool-using autonomous assistant | "让 agent 跑重复检查" |
-| token | model text unit / context budget | "别把 token 花在无效上下文上" |
-| RAG | retrieval-augmented generation | "知识更新频繁时用 RAG" |
-| benchmark | evaluation baseline | "先有 benchmark 再谈优化" |
-| 幻觉 | unsupported model output | "这里要防幻觉" |
-| 上下文污染 | irrelevant context affects output | "把旧结论清掉，避免上下文污染" |
-| 工具链 | toolchain | "把测试、格式化、部署工具链打通" |
-| 回归验证 | regression verification | "修完要做回归验证" |
-| 评测集 | evaluation set | "沉淀一组真实评测集" |
+| 词条 | 含义 | 推荐用法 | 备注 |
+|---|---|---|---|
+| 对齐 | 确认目标、理解或口径一致 | "先对齐目标和约束" | 常用，安全 |
+| 拉通 | 打通团队、系统或流程 | "把前后端链路拉通" | 常用于协作场景 |
+| 闭环 | 完成反馈、行动和验证回路 | "监控、告警、修复要闭环" | 适合流程描述 |
+| 抓手 | 可执行的切入点或杠杆 | "先找一个低成本抓手" | 避免空泛 |
+| 颗粒度 | 拆分或描述的细致程度 | "把任务拆到可执行颗粒度" | 适合计划/拆解 |
+| 沉淀 | 保存为可复用资产或经验 | "把经验沉淀成文档和脚本" | 适合知识管理 |
+| 复盘 | 回顾过程并提炼经验 | "上线后做一次复盘" | 正常专业词 |
+| 打法 | 策略、套路或执行方案 | "这套打法适合早期验证" | 稍有大厂味 |
+| 飞轮 | 自增强循环 | "数据越多，推荐越准，形成飞轮" | 产品/增长常用 |
+| 壁垒 | 防御性优势 | "真正的壁垒是数据和分发" | 商业分析常用 |
+| 心智 | 用户认知或品牌印象 | "占住用户心智" | 产品/营销常用 |
+| 场景 | 使用语境或需求环境 | "先锁定高频场景" | 常用，安全 |
+| 链路 | 端到端路径 | "登录链路有断点" | 技术/产品通用 |
+| 落地 | 从方案进入执行 | "方案能落地，不只是 PPT" | 高频 |
+| 赋能 | 帮助、支持、增强能力 | "这套工具能赋能运营团队" | 容易空泛，少用 |
+| 组合拳 | 多动作协同 | "不是单点优化，要打组合拳" | 适合策略描述 |
 
-## Net-Native Tone
+## 技术与 AI 黑话
 
-| Phrase | Meaning | Good Use |
-|---|---|---|
-| 整活 | playful/creative move | "可以整活，但别影响主链路" |
-| 抽象 | absurd or hard to explain | "这个 bug 有点抽象" |
-| 绷不住 | cannot hold back reaction | "看到这个状态机我有点绷不住" |
-| 破防 | emotionally hit/frustrated | "用户在这里会破防" |
-| 硬控 | strongly captures attention | "首屏要能硬控 3 秒" |
-| 拿捏 | handle precisely | "边界条件被拿捏了" |
-| 显眼包 | attention-grabbing thing/person | "这个按钮别做成显眼包" |
-| 电子榨菜 | light background content | "这个页面像电子榨菜，轻但上头" |
-| 松弛感 | relaxed feel | "交互要有松弛感" |
-| 含金量 | substance/value | "这条建议含金量高" |
-| 泼天富贵 | sudden huge traffic/opportunity | "真爆了就是泼天富贵" |
-| 上强度 | increase pressure/intensity | "性能测试可以上强度" |
-| 稳了 | likely fine | "主流程稳了，边界还要补" |
+| 词条 | 含义 | 推荐用法 | 备注 |
+|---|---|---|---|
+| MVP | 最小可行产品 | "先做 MVP 验证需求" | 保留英文缩写 |
+| PMF | 产品市场匹配 | "还没到 PMF，别急着规模化" | 创业/产品常用 |
+| prompt | 模型指令 | "先把 prompt 收敛" | AI 常用 |
+| agent | 可调用工具和执行任务的智能体 | "让 agent 跑重复检查" | AI 常用 |
+| token | 模型文本单位或上下文预算 | "别把 token 花在无效上下文上" | AI 常用 |
+| RAG | 检索增强生成 | "知识更新频繁时用 RAG" | 技术词 |
+| benchmark | 评测基线 | "先有 benchmark 再谈优化" | 技术/评测常用 |
+| 幻觉 | 模型生成无依据内容 | "这里要防幻觉" | AI 常用 |
+| 上下文污染 | 无关上下文影响输出 | "把旧结论清掉，避免上下文污染" | AI 协作常用 |
+| 工具链 | 一组协同工具 | "把测试、格式化、部署工具链打通" | 技术常用 |
+| 回归验证 | 确认修改没有破坏旧行为 | "修完要做回归验证" | 工程常用 |
+| 评测集 | 用于验证效果的一组样例 | "沉淀一组真实评测集" | AI/测试常用 |
 
-## Meme Terms To Treat As Volatile
+## 网感表达
 
-These may be current, stale, or context-specific. Verify before presenting them as "latest":
+| 词条 | 含义 | 推荐用法 | 备注 |
+|---|---|---|---|
+| 整活 | 做有创意或搞笑的事 | "可以整活，但别影响主链路" | 轻松场景 |
+| 抽象 | 荒诞、离谱或难以解释 | "这个 bug 有点抽象" | 注意别冒犯人 |
+| 绷不住 | 忍不住有反应 | "看到这个状态机我有点绷不住" | casual |
+| 破防 | 情绪被击穿或挫败 | "用户在这里会破防" | 轻用 |
+| 硬控 | 强力吸引注意力 | "首屏要能硬控 3 秒" | UI/内容场景 |
+| 拿捏 | 处理得精准 | "边界条件被拿捏了" | 正向反馈 |
+| 显眼包 | 过度抢眼的人或物 | "这个按钮别做成显眼包" | 可能带调侃 |
+| 电子榨菜 | 轻量、下饭、可随手看的内容 | "这个页面像电子榨菜，轻但上头" | 内容场景 |
+| 松弛感 | 轻松不紧绷的感觉 | "交互要有松弛感" | 设计/体验 |
+| 含金量 | 有价值、有信息密度 | "这条建议含金量高" | 正向 |
+| 泼天富贵 | 突然来的巨大流量或机会 | "真爆了就是泼天富贵" | 夸张表达 |
+| 上强度 | 提高压力或难度 | "性能测试可以上强度" | 测试/讨论 |
+| 稳了 | 基本没问题 | "主流程稳了，边界还要补" | 轻松确认 |
+
+## 易过期热梗
+
+这些词可能当前流行，也可能已经过气或只在特定圈层有效。作为“最新热梗”使用前必须验证：
 
 - SBTI / 盗版人格测试类梗
 - 我的刀盾
 - 奶龙大笑
 - ChinaMaxxing / 变得很中国
-- Any short-video platform catchphrase from the last 3-6 months
+- 最近 3-6 个月短视频平台爆火的口头禅
 
-## Unsafe Or Low-Quality Areas
+## 不建议收录的区域
 
-Avoid these unless discussing them critically:
+除非是批判性讨论，否则避免加入：
 
-- Doxxing terms such as "开盒"
-- Harassment pile-ons and insult chains
-- Sexist, racist, ableist, or region-discriminatory memes
-- Sexualized school-age or workplace "烂梗"
-- Slang used to evade moderation for harmful requests
+- 开盒、人肉、隐私攻击相关表达
+- 网暴、挂人、围攻、侮辱链条
+- 性别、地域、种族、疾病、残障歧视梗
+- 性化未成年人或校园低俗烂梗
+- 用于规避审核、隐藏有害请求的黑话
 
-## Source Notes
+## 来源说明
 
-Seed examples were collected from public web references in April 2026, including:
+初始语料在 2026 年 4 月参考公开网页整理，包括：
 
-- Alibaba Cloud Developer Community: `https://developer.aliyun.com/article/1704293`
-- Sina/China Youth Daily: `https://finance.sina.com.cn/tech/2022-01-05/doc-ikyakumx8362592.shtml`
-- Wikipedia: `https://zh.wikipedia.org/wiki/互联网黑话`
-- Sina/上观新闻 safety coverage: `https://finance.sina.com.cn/jjxw/2025-03-17/doc-inepxuqp6505943.shtml`
-- Recent meme entries surfaced in search, including "SBTI测试", "我的刀盾", and "奶龙大笑"; verify before relying on them.
+- 阿里云开发者社区：`https://developer.aliyun.com/article/1704293`
+- 新浪/中国青年报：`https://finance.sina.com.cn/tech/2022-01-05/doc-ikyakumx8362592.shtml`
+- 维基百科：`https://zh.wikipedia.org/wiki/互联网黑话`
+- 新浪/上观新闻网络黑话治理报道：`https://finance.sina.com.cn/jjxw/2025-03-17/doc-inepxuqp6505943.shtml`
+- 搜索中出现的近期热梗条目，例如“SBTI测试”“我的刀盾”“奶龙大笑”；使用前需要再次确认。
 
-Because slang changes quickly, refresh this bank with current searches before making "latest trend" claims.
+黑话衰减很快。更新语料库时，应优先补充来源、语境和风险判断。
