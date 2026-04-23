@@ -3,18 +3,21 @@ set -euo pipefail
 
 usage() {
   cat <<'EOF'
+安装当前 skill 到常见 AI agent skill 目录。
 Install the current skill folder into common AI-agent skill directories.
 
-Usage:
+用法 / Usage:
   scripts/install.sh [--all] [--codex] [--claude] [--gemini] [--agents] [--target DIR] [--name NAME]
 
-Examples:
+示例 / Examples:
   scripts/install.sh --all
   scripts/install.sh --codex --claude
   scripts/install.sh --target "$HOME/.my-agent/skills"
 
-Defaults:
+默认行为 / Defaults:
+  不传目标参数时等同于 --all。
   With no target flags, installs to --all.
+  已存在同名 skill 时会先备份为 .backup.TIMESTAMP.PID。
   Existing same-name skills are moved aside as .backup.TIMESTAMP.PID.
 EOF
 }
@@ -91,7 +94,7 @@ if [[ "$selected" -eq 0 ]]; then
 fi
 
 if [[ ! -f "$skill_root/SKILL.md" ]]; then
-  echo "SKILL.md not found in $skill_root" >&2
+  echo "未找到 SKILL.md / SKILL.md not found in $skill_root" >&2
   exit 1
 fi
 
@@ -101,7 +104,7 @@ for target in "${targets[@]}"; do
   if [[ -e "$dest" ]]; then
     backup="$dest.backup.$(date +%Y%m%d%H%M%S).$$"
     mv "$dest" "$backup"
-    echo "Backed up existing $dest -> $backup"
+    echo "已备份旧版本 / Backed up existing $dest -> $backup"
   fi
   mkdir -p "$dest"
   tar \
@@ -109,5 +112,5 @@ for target in "${targets[@]}"; do
     --exclude '.DS_Store' \
     --exclude '__pycache__' \
     -C "$skill_root" -cf - . | tar -C "$dest" -xf -
-  echo "Installed $skill_name -> $dest"
+  echo "已安装 / Installed $skill_name -> $dest"
 done
