@@ -9,6 +9,24 @@ This reference is a phrase bank for Chinese internet slang and tech-company heih
 - Avoid "烂梗" that is vulgar, discriminatory, sexually suggestive, or used for harassment.
 - Mark fast-moving memes as volatile; verify online before claiming they are current.
 
+## Contribution Format
+
+For stable phrases, add one row to the most relevant table:
+
+```markdown
+| Phrase | Meaning | Good Use |
+|---|---|---|
+| 新词 | short plain-language meaning | "natural example sentence" |
+```
+
+For volatile memes, add a bullet under "Meme Terms To Treat As Volatile" with context:
+
+```markdown
+- 新热梗：source/platform/context; verify before using as a current meme.
+```
+
+Do not add phrases that rely on harassment, discrimination, doxxing, sexualized minors, or moderation evasion.
+
 ## Professional Heihua
 
 | Phrase | Meaning | Good Use |
