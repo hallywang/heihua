@@ -162,6 +162,39 @@ scripts/install.sh --codex --name internet-heihua-style
 
 贡献黑话语料时请尽量说明来源和语境。不要加入歧视、骚扰、开盒、低俗擦边或明显有害的表达。
 
+### 如何增加黑话
+
+大多数黑话贡献只需要改 [references/slang-bank.md](references/slang-bank.md)，不要直接把大量词条塞进 [SKILL.md](SKILL.md)。`SKILL.md` 负责稳定规则和触发逻辑，语料库负责可迭代的表达素材。
+
+推荐流程：
+
+1. Fork 本仓库并创建分支。
+2. 在 `references/slang-bank.md` 里找到合适分类，例如 `Professional Heihua`、`Tech And AI Heihua`、`Net-Native Tone`。
+3. 按现有表格格式新增词条：`Phrase`、`Meaning`、`Good Use`。
+4. 如果是最近 3-6 个月的热梗，优先放到 `Meme Terms To Treat As Volatile`，并补来源或语境说明。
+5. 如果词条有冒犯、歧视、骚扰、开盒、低俗擦边、规避审核风险，不要加入。
+6. 提交 PR，并说明这些词适合什么场景、为什么不会损害表达清晰度。
+
+词条示例：
+
+```markdown
+| 对齐 | make sure everyone agrees | "先对齐目标和约束" |
+```
+
+热梗示例：
+
+```markdown
+- 某某梗：来自某平台/某事件，适合轻松吐槽；时效性强，使用前应确认是否仍流行。
+```
+
+PR 自检清单：
+
+- 新词能增强表达，不只是堆梗。
+- 解释足够清楚，非中文互联网用户也能大概理解。
+- 示例句是自然用法，不是硬凑。
+- 没有引入攻击性、歧视性或高风险表达。
+- 如果是新热梗，标注了来源、语境或时效性。
+
 ## 许可证
 
 MIT License，见 [LICENSE](LICENSE)。
